@@ -2,6 +2,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+}
 
 
 a{
@@ -16,12 +20,7 @@ h1{
 
 
 
-.logo{
-    color: white;
-    font-size: 48px;
-    font-weight: bolder;
-    /*padding: 12px;*/
-}
+
 
 .header{
     padding: 20px;
@@ -29,7 +28,25 @@ h1{
     background-color:rgb(38, 38, 83);
     color: white;
     font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.logo{
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+    /*padding: 12px;*/
+    margin-right: auto;
+}
+.left-header-links,
+.right-header-links{
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    flex: 1;
+}
+
 
 .first-box{
     color: white;
