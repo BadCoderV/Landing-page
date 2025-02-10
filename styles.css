@@ -32,8 +32,9 @@ h1{
 }
 
 .first-box{
-    padding: 20px;
+    color: white;
     background-color:rgb(23, 26, 68);
+    padding: 20px;
 }
 .first-box img{
     width: 400px;
@@ -66,7 +67,6 @@ h1{
     font-size: 1.7rem;
     font-weight: bolder;
 }
-
 .third-box q{
     font-size: 2.5rem;
     font-style: italic;
@@ -80,7 +80,6 @@ h1{
 .fourth-box{
     color: white;
 }
-
 .fourth-box h3{
     color: white;
     
