@@ -24,29 +24,33 @@ h1{
 
 .header{
     padding: 20px;
-    font-weight: 700;
     background-color:rgb(38, 38, 83);
     color: white;
-    font-size: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .logo{
     color: white;
-    font-size: 48px;
+    /*font-size: 48px;*/
     font-weight: bolder;
     /*padding: 12px;*/
     margin-right: auto;
+    margin-left: 30%;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
 .left-header-links,
 .right-header-links{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     padding: auto;
     flex: 1;
 }
-
+.right-header-links{
+    margin-inline: 5%;
+    margin-right: 10%;
+}
 
 .first-box{
     color: white;
